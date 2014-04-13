@@ -1,0 +1,4 @@
+component SQLiteResult
+{
+	provides ISQLiteResult result;
+};

@@ -1,0 +1,8 @@
+interface ITransactionStore
+{
+	void open( in string url );
+	
+	void insertTransaction( in ITransaction transaction );
+	
+	bool getNextTransaction( out ITransaction transaction );
+};

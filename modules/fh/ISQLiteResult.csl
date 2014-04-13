@@ -1,0 +1,23 @@
+interface ISQLiteResult
+{
+	/*!
+		Moves to the next row in the result set.
+		\return true if the next row was fetched, false if there are no more rows.
+	*/
+	bool next();
+
+	/*!
+		Use this instead of next() when the expected result is a single row.
+		\throw IOException if the query did not result in a single row.
+	 */
+	void fetchRow();
+
+	//! Retrieves the value at \a column as a string.
+	string getString( in uint32 column );
+
+	//! Retrieves the value at \a column as an uint32.
+	uint32 getUint32( in uint32 column );
+	
+	//! Retrieves the value at \a column as an uint32.
+	double getDouble( in uint32 column );
+};

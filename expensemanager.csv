@@ -1,0 +1,7 @@
+Date,Amount,Category,Subcategory,Payment Method,Description,Ref/Check No,Payee/Payer,Status,Receipt Picture,Account
+31/12/1969,-20.87,Food,Groceries,Credit Card, , ,compras,Uncleared, ,Personal Expense
+31/12/1969,-89,Entertainment,Other,Cash, , ,city pass,Uncleared, ,NY travel
+05/01/2012,-280,Personal,Personal Care,Check,Repeating:yoga, , , , ,Personal Expense
+05/01/2012,-23.00,Entertainment,Other, ,Repeating:supernews, , ,Uncleared, ,Personal Expense
+05/01/2012,-687.00,Household,Rent,Electronic Transfer, , ,aluguel,Uncleared, ,Personal Expense
+05/01/2012,-30.50,Utilities,Cable TV,Cash, , , ,Uncleared, ,Personal Expense

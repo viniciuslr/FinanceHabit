@@ -1,0 +1,8 @@
+interface ISQLiteConnection
+{
+	bool isConnected();
+	void open( in string filename );
+	void close();
+
+	ISQLiteStatement prepare( in string sql );
+};

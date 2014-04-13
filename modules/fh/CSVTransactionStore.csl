@@ -1,0 +1,5 @@
+@lua.Scripted( "fh.CSVTransactionStore" )
+component CSVTransactionStore
+{
+	provides ITransactionStore store;
+};

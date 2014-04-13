@@ -1,0 +1,5 @@
+@lua.Scripted( "fh.SQLiteTransactionStore" )
+component SQLiteTransactionStore
+{
+	provides ITransactionStore store;
+};

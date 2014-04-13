@@ -1,0 +1,8 @@
+struct ITransaction
+{
+	string identifier;
+	string date;
+	double value;
+	string record;
+	string category;
+};

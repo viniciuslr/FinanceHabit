@@ -1,0 +1,4 @@
+component SQLiteStatement
+{
+	provides ISQLiteStatement statement;
+};

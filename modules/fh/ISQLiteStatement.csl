@@ -1,0 +1,33 @@
+interface ISQLiteStatement
+{
+	/*!
+	Executes a SELECT statement.
+	This statement must be valid as long as the SQLiteResult is being consulted.
+ */
+	ISQLiteResult query();
+
+	/*!
+		Executes a non-SELECT statement.
+	 */
+	void execute();
+
+	//! Resets the statement so it can be reused. Parameters must be bound again.
+	void reset();
+
+	/*!
+		Releases the statement. Called automatically when the object dies.
+		Unfinalized statements prevent their SQLiteConnection from being closed.
+	 */
+	void finalize();
+	
+	//! Bind a double.
+	void bindDouble( in uint32 index, in double value );
+
+	//! Bind a string.
+	void bindString( in uint32 index, in string value );
+	
+	//! Bind a string.
+	void bindDate( in uint32 index, in string value );
+
+
+};

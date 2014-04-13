@@ -1,0 +1,5 @@
+@lua.Scripted("fh.TransactionConvert")
+component TransactionConvert
+{
+	provides ITransactionConvert tc;
+};

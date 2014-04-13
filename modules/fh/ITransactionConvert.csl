@@ -1,0 +1,5 @@
+interface ITransactionConvert
+{
+	void convert( in string inputFile, in string outputFile );
+	void convertFromStore( in ITransactionStore input, in ITransactionStore output );
+};
